@@ -1,4 +1,4 @@
-FROM logstash:2.0.0-1
+FROM logstash:2.1.1-1
 
 WORKDIR "/usr/bin" 
 RUN ["apt-get", "update"]
